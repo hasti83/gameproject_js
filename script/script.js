@@ -5,7 +5,6 @@ let TimeInterval;
 const choices = document.querySelectorAll('.choice');
 const scoreBoard = document.getElementById('score');
 const result = document.getElementById('result');
-const resetButton = document.getElementById('reset');
 const timerDisplay = document.getElementById('timer');
 
 choices.forEach(choice => {
