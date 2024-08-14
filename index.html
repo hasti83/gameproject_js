@@ -1,0 +1,44 @@
+ 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>بازی سنگ،کاغذ،قیچی</title>
+<link rel="stylesheet" href="./style/style3.css">
+<link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="div" > 
+
+    <div class="container">
+        <h1>بازی سنگ،کاغذ،قیچی</h1>
+        <div class="scoreboard">
+            <div id="user-label" class="badge">امتیاز شما:</div>
+             <div id="score" class="score">0 : 0</div>
+            <div id="computer-label" class="badge">:امتیاز کامپیوتر</div>
+                  </div>
+               
+                  <div class="Timeout" >
+                     <p id="timer" >  
+                    زمان باقی مانده :
+                    <span id="time" > 15 </span>
+                    ثانیه
+                     </p>
+                  </div>
+        <div class="choices">
+            <div class="choice" id="rock">✊</div>
+            <div class="choice" id="paper">✋</div>
+            <div class="choice" id="scissors">✌️</div>
+        </div>
+        <P id="pick">یک گزینه را انتخاب کنید </P>
+        <p id="result" class="result">
+        </p>
+        <button id="reset" class="reset"  onclick="resetGame()">
+            بازی از اول
+        </button>
+    </div>
+    </div>
+    <script src="./script/script.js"></script>
+</body>
+</html>

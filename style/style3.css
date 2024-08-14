@@ -1,0 +1,168 @@
+body{
+    
+   height: 100vh;
+    margin: 0;
+    background-color:#111111;
+    display: flex;
+    flex-direction: column;
+    font-weight:bold;
+    
+}
+
+#div{
+    background-color:#252424;
+      margin: 30px;
+margin-left:200px;
+   max-width:900px;
+    padding-left: 100px;
+    padding-right:100px;
+    border-radius: 3mm;
+    
+}
+.container {
+    background-color:#4d4d4d;
+    text-align: center;
+    padding: 20px;
+    margin-left: 180px;
+    box-shadow: 0 0 10px black;
+    min-height:600px;
+    max-width: 500px;
+    border-radius: 3mm;
+}
+
+.choices{
+    margin: bottom 20px; 
+    }
+
+
+
+h1 {
+    font-family: 'Vazirmatn', sans-serif; 
+    color:#db6c1f;
+}
+
+.scoreboard {
+    position: relative;
+    text-align: center;
+    color: white;
+    padding: 10px 20px;
+    font-size: 46px;
+    width:190px;
+    margin: 20px 30px;
+    margin-left:130px;
+    border: 3px ridge white;
+    border-radius: 10px;
+    font-family:"";
+
+   } .score{
+    color: white;
+   }
+#computer-label{
+    position: absolute;
+   top: 2px;
+    right: -100px;
+}
+#user-label{
+    position: absolute;
+    bottom:-5px;
+    left: -70px;
+}
+ 
+.badge{
+    font-size:20px;
+    margin:10px 30px;
+    padding: 10px;
+    box-shadow: 0 0 10px #111111;
+    border-radius:10px;
+ background-color:#db6c1f;
+ color:white;
+display: flex;
+}
+#score {
+    font-size: 32px;
+}
+
+.choices {
+    display: flex;
+    justify-content: space-around;
+    }
+
+.choice {
+    border:2px solid white;
+    padding: 10px ;
+    margin: 10px ;
+    justify-content: space-around;
+    font-size:50px;
+    background-color:#db6c1f;
+  border-radius:50%;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+    box-shadow: 0 0 10px #111111;
+}
+
+.choice:hover {
+    background:azure;
+}
+
+#result {
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+margin-top: 1rem;
+}
+#pick {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+margin-top: 1rem;
+}
+
+.Timeout{
+    border-radius: 8px;
+    background-color:hsl(0, 100%, 57%);
+    padding:1px 4px;
+    color: aliceblue;
+       margin: 20px 35mm;
+    margin-top: 30px;
+    font-size: 20px;
+    box-shadow: 0 0 10px #111111;
+    
+   
+}
+
+.reset{
+    cursor:pointer;
+    transition: background-color 0.5s ease;
+    background-color:darkmagenta;
+    color: aliceblue;
+    padding: 10px 20px;
+    border-radius:4mm;
+    text-align: center;
+    font-size: medium;
+    margin: 20px;
+
+}
+.reset:hover{
+background-color:darkviolet;
+}
+
+.reset:active{
+transform: scale(0.9);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
